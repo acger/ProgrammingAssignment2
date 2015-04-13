@@ -1,7 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Contains two functions which provides support for caching a inverted matrix. This may speed 
+## up a programm if inverse of a matrix is required more than once.
 
-## The first function, makeVector creates a special "vector", which is really a list containing a function to
+
+## The first function, makeCacheMatrix creates a special "vector", which is really a list
+## containing a function to:
+##
 ## set: set the matrix to invert
 ## get: get the matrix to invert
 ## setinverse: sets the value of the inverse
